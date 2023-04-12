@@ -21,7 +21,7 @@ html {
 body {
   background-color: var(--primary-light);
   color: var(--primary-dark);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.6;
   /* footer support */
   margin-bottom: 100px;
@@ -85,32 +85,32 @@ button.active {
 }
 
 button,
-input[type='color'] {
+input[type="color"] {
   transition: transform 0.1s ease-in-out;
 }
 
 button:hover,
-input[type='color']:hover {
+input[type="color"]:hover {
   transform: scale(1.05);
 }
 
-input[type='color']:active {
+input[type="color"]:active {
   transition: transform 0.05s ease-in-out;
   transform: scale(1);
 }
 
-input[type='color'] {
+input[type="color"] {
   -webkit-appearance: none;
   width: 80px;
   height: 80px;
   border: none;
 }
 
-input[type='color']::-webkit-color-swatch-wrapper {
+input[type="color"]::-webkit-color-swatch-wrapper {
   padding: 0;
 }
 
-input[type='color']::-webkit-color-swatch {
+input[type="color"]::-webkit-color-swatch {
   border: none;
   border-radius: 50px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -121,19 +121,19 @@ input[type='color']::-webkit-color-swatch {
   font-size: 20px;
 }
 
-input[type='range'] {
+input[type="range"] {
   -webkit-appearance: none;
   background-color: var(--primary-light);
 }
 
-input[type='range']::-webkit-slider-runnable-track {
+input[type="range"]::-webkit-slider-runnable-track {
   height: 10px;
   border: 1px solid var(--primary-dark);
   border-radius: 25px;
   background: var(--secondary-light);
 }
 
-input[type='range']::-webkit-slider-thumb {
+input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: 24px;
   height: 24px;
@@ -152,6 +152,7 @@ input[type='range']::-webkit-slider-thumb {
 
 .grid-element {
   user-select: none;
+  border: 1px solid gray;
 }
 
 /* FOOTER */
